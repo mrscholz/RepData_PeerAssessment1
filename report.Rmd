@@ -2,10 +2,10 @@
 title: 'Reproducible Research: Peer Assessment 1'
 author: "Markus Scholz"
 output:
+  pdf_document: default
   html_document:
     fig_height: 10
     keep_md: yes
-  pdf_document: default
 ---
 ```{r}
 library(dplyr)
