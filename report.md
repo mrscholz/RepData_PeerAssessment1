@@ -99,7 +99,7 @@ Lets see how active the subject is by plotting a simple histogramm of the total 
 hist(summary$sums,breaks=10,xlab = "steps",ylab="frequency")
 ```
 
-![](report_files/figure-html/unnamed-chunk-6-1.png)
+![](report_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
 
 And now we calculate the `mean` and `median` of the total number of steps taken per day. Note, that we ignore `NaN` for the calculation. Otherwise, both, mean and median would be `NaN`! 
 
@@ -137,7 +137,7 @@ summary2 <- summarize(intervaled,meanPerInterval=(mean(steps,na.rm=TRUE)),median
 plot(summary2$interval,summary2$meanPerInterval,type="l",xlab = "interval",ylab="average number of steps")
 ```
 
-![](report_files/figure-html/unnamed-chunk-8-1.png)
+![](report_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
 ## What is the interval with the maximum number of steps on average?
 The interval can be determined with the following code:
@@ -207,7 +207,7 @@ head(summary)
 hist(summary$sums,breaks=10,xlab = "number of steps",ylab="frequency")
 ```
 
-![](report_files/figure-html/unnamed-chunk-13-1.png)
+![](report_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
 
 
 ```r
@@ -262,4 +262,4 @@ plot(alldays$interval,alldays$weed_meansteps,type="l",xlab = "interval",ylab="st
 plot(alldays$interval,alldays$difference,type="l",xlab = "interval",ylab="workdays-weekends",main="Difference between workdays and weekends")
 ```
 
-![](report_files/figure-html/unnamed-chunk-17-1.png)
+![](report_files/figure-html/unnamed-chunk-17-1.png)<!-- -->
