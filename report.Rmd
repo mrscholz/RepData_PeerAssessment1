@@ -2,7 +2,8 @@
 title: 'Reproducible Research: Peer Assessment 1'
 author: "Markus Scholz"
 output:
-  pdf_document: default
+  pdf_document: 
+    fig_height: 7
   html_document:
     fig_height: 10
     keep_md: yes
